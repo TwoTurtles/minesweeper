@@ -9,6 +9,8 @@ body {
   display: grid;
   justify-content: center;
   margin: 2rem auto;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #grid {
@@ -77,9 +79,40 @@ body {
 }
 
 .text {
-  text-align: center;
-  font-size: 2rem;
-  margin-block-end: 1rem;
+  /* text-align: center; */
+  font-size: 1.8rem;
   margin-block-start: 1rem;
   font-weight: bold;
+  color: white;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 1rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: white;
+  color: black;
+}
+
+.bottom-row {
+  text-align: center;
+  margin-block-start: 1rem;
 }

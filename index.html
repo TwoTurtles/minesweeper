@@ -5,15 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Bregina Pool">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="style.css">
   <script src="main.js"></script>
   <title>Minesweeper</title>
 </head>
 
 <body>
-  <div class="text">Flags left: <span id="flags-left"></span></div>
+  <div class="top-row">
+    <h1 class="text">Flags left: <span id="flags-left"></span></h1>
+    <button class="btn">Restart</button>
+  </div>
   <div id="grid"></div>
-  <div class="text" id="result"></div>
+  <div class="bottom-row">
+    <div class="text" id="result"></div>
+  </div>
 </body>
 
 </html>

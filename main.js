@@ -2,6 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const grid = document.querySelector('#grid')
   const flagsLeft = document.querySelector('#flags-left')
   const result = document.querySelector('#result')
+  const restart = document.querySelector('button')
+  restart.addEventListener('click', restartGame)
+  function restartGame() {
+    location.reload(true)
+  }
+  // restartGame('location.reload(true)')
   let width = 10
   let bombsAmount = 16
   let flags = 0
