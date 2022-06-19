@@ -1,2 +1,3 @@
 # minesweeper
-Classic minesweeper game created with Javascript
+
+> Classic minesweeper game created with Javascript
