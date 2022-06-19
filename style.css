@@ -42,7 +42,7 @@ body {
 }
 
 #grid .number {
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
@@ -79,8 +79,7 @@ body {
 }
 
 .text {
-  /* text-align: center; */
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-block-start: 1rem;
   font-weight: bold;
   color: white;
@@ -96,7 +95,6 @@ body {
 .btn {
   padding: 0.5rem;
   font-size: 1.2rem;
-  width: 30%;
   border-radius: 5px;
   border: 1px solid white;
   background-color: black;
