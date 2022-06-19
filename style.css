@@ -1,0 +1,89 @@
+:root {
+  --grid-border-color: hsl(0, 0%, 0%);
+  --grid-background-color: hsl(0, 0%, 47%);
+  --background-color: hsl(0, 2%, 70%);
+  --background-color-checked: hsl(120, 2%, 92%);
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+#grid {
+  width: calc(400px + 9px);
+  height: calc(400px + 9px);
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--background-color);
+  border: 10px solid var(--grid-border-color);
+  border-style: ridge;
+  gap: 1px;
+}
+
+#grid div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid var(--grid-background-color);
+  border-style: outset;
+  box-sizing: border-box;
+  border-radius: 1px;
+  font-size: 1.3rem;
+}
+
+.checked {
+  background-color: var(--background-color-checked);
+}
+
+#grid .number {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.one {
+  color: hsl(240, 100%, 50%);
+}
+
+.two {
+  color: hsl(120, 100%, 25%);
+}
+
+.three {
+  color: hsl(0, 79%, 48%);
+}
+
+.four {
+  color: hsl(240, 98%, 18%);
+}
+
+.five {
+  color: hsl(0, 92%, 29%);
+}
+
+.six {
+  color: hsl(190, 62%, 50%);
+}
+
+.seven {
+  color: hsl(312, 93%, 61%);
+}
+
+.eight {
+  color: hsl(92, 82%, 54%);
+}
+
+.bomb {
+  /* background-color: hsl(39, 100%, 50%); */
+}
+
+.text {
+  text-align: center;
+  font-size: 2rem;
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+  font-weight: bold;
+}
