@@ -76,10 +76,6 @@ body {
   color: hsl(92, 82%, 54%);
 }
 
-.bomb {
-  /* background-color: hsl(39, 100%, 50%); */
-}
-
 .text {
   text-align: center;
   font-size: 2rem;
